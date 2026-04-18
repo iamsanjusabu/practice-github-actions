@@ -17,4 +17,9 @@ public class SystemController {
     public String status() {
         return "active";
     }
+
+    @GetMapping("github-actions")
+    public String actions() {
+        return "CI pipeline implemented";
+    }
 }
