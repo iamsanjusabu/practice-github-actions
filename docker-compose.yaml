@@ -1,0 +1,6 @@
+services:
+  spring-boot:
+    build: .
+    image: spring-boot-api:1
+    ports:
+      - "8080:8080"
